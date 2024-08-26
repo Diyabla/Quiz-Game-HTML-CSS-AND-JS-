@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidents Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quiz">
+
+            <div class="quiz-title">
+                <h2>Presidents of Ghana</h2>
+                <img src="./images/vector design/Flag-map_of_Ghana.svg" alt="title map" width="64px" height="104px">
+            </div>
+
+            <div id="question-container" class="question-container hide">
+                <img src="./images/vector design/vector design.jpg" alt="background image" class="question-container-back">
+
+                <div id="question-display" class="question">
+                    <b>Question</b>
+                </div>
+
+                <figure id='images' class="question-image-holder">
+                    <img src="./images/Nkrumah.jpg" alt="nkrumah" width="412px" height="395px" class="question-image">
+                    <img src="./images/Mahama.jpg" alt="mahama" width="412px" height="395px" class="question-image">
+                    <img src="./images/Mills.jpg" alt="mills" width="412px" height="395px" class="question-image">
+                    <img src="./images/Rawlings.jpg" alt="rawlings" width="412px" height="395px" class="question-image">
+                </figure>
+
+                <div id="answer-buttons" class="answer-buttons">
+                    <button class="answer">Answer 1</button>
+                    <button class="answer">Answer 2</button>
+                    <button class="answer">Answer 3</button>
+                    <button class="answer">Answer 4</button>
+                </div>
+            </div>
+
+            <div class="control-buttons">
+                <button id="start-btn" class="start btn">Start</button>
+                <button id="next-btn" class="next btn hide">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
